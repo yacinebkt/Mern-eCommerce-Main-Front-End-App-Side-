@@ -1,0 +1,259 @@
+
+.logo{
+    width: 137px;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .logo .logoimage{
+    width: 100px;
+  }
+  .exploreText{ 
+    font-size: 10px;
+    font-style: italic; 
+  }
+  .plusText{ 
+    font-size: 10px; 
+    margin: 0 2px; 
+    text-transform: capitalize;
+    font-style: italic;
+    color: yellow;
+  }
+  .logo .goldenStar{
+    width: 10px;
+    height: 10px;
+  }
+  .bg-nav {
+    /*background: #293B5F!important;*/
+    background:     #044285    !important;
+    color: white !important;
+  }
+
+  .end-nav{
+    flex: inherit !important;
+    padding: .2rem;
+    
+  }
+
+  .end-nav-icons{
+    font-weight: 700;
+    font-size: 26px;
+    margin: 0 0 0 .5rem;
+  }
+  
+
+.icon-container {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+  
+
+.user-icon {
+  border: none;
+}
+
+
+.navLinkitem-container{
+
+    display: flex !important; 
+    justify-content: center;
+    align-items: baseline !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #FFF !important;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 132% !important;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: .5rem 0;
+  margin: .125rem 0 0;
+  font-size: 1rem;
+  color: #FFF  !important;
+  text-align: left;
+  list-style: none;
+  background-color: #293b5f !important;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: .25rem;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100% ;
+  padding: .25rem 0.5rem;
+  clear: both;
+  font-weight: 400;
+  font-size: 15px;
+  color: #FFF !important;
+  text-align: inherit;
+  white-space: nowrap; 
+  background-color: transparent; 
+  border: 0;
+  display: flex !important;
+
+}
+
+
+
+  /* Search Button**/
+
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+  
+  .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    
+  }
+  
+  .searchTerm {
+    width: 30vw;
+    border: 3px solid #FFC107;
+    border-right: none;
+    padding: 5px;
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: #444;
+    font-weight: 450;
+
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 0px solid #111;
+    background: #FFC107;
+    text-align: center;
+    color: #111;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+  }
+
+  .search-icon{
+    font-weight: bold;
+    margin-top: -3px;
+  }
+ 
+ 
+  /**/
+
+  #collasible-nav-dropdown,
+.loginButton {
+    display: inline-block;
+    /*width: 100px;*/
+    height: 30px;
+    background: #fff;
+    text-align: center;
+    line-height: initial;
+    color: #2874f0 !important;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 1rem;
+
+  }
+
+  .dropdown{
+      background: transparent !important;
+  }
+
+  
+  .dropdown:hover{
+      background: transparent !important;
+  }
+
+  #dropdown-basic{
+    background: transparent !important;
+    border: none;
+
+  }
+
+ 
+#dropdown-basic:hover{
+    background: transparent !important;
+    border: none;
+}
+
+  
+
+/* drop down login*/
+
+.menu1-dropdown{
+  display: none !important;
+  top :50px !important;
+  left: 10px !important;
+}
+
+.Menu1:hover .menu1-dropdown{
+ display: block !important;
+}
+
+
+
+a:hover {
+ /* color: #Fff !important;*/
+  text-decoration: none !important ;
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10 !important;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+}
+
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #16181b !important;
+  text-decoration: none;
+  background-color: #e9ecef;
+}
+
+
+.modalFixedBg{
+  z-index: 99999999999999999;
+}
+
+.navfixed{
+  position: fixed !important;
+  top: 0;
+  left: 0
+}
+
+.navbar {
+  
+  position: fixed !important;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999999999999999999999999999;
+}

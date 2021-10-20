@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@200&display=swap'); /**/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap'); /**/
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap'); /*----*/
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');  /* ------*/
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap'); /**/
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');/**/
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+
+
+
+
+
+
+
+
+
+.header-categoriesListPage {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, .15);
+    background: royalblue;
+}
+
+.header-categoriesListPage h2{
+font-size: 6rem;
+font-weight: 600;
+letter-spacing: 7px;
+color:whitesmoke ;
+text-transform: uppercase;
+
+}
+
+main .categoriesList{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+main .categoriesList-container{
+    width: 95%;
+    margin-top: 20px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+main .category-container{
+    width: 32%;
+    height: 30vh;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, .15);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 1%;
+}
+
+main .category-container-right{
+    width: 150px;
+    height: 150px;
+}
+
+main .category-container-right img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: .2rem;
+    -webkit-border-radius: .2rem;
+    -moz-border-radius: .2rem;
+    -ms-border-radius: .2rem;
+    -o-border-radius: .2rem;
+}
+
+.category-container{
+    background: #DDE8B9;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, .15);
+}
+
+.category-container-left .titel h2{
+    color: #393D3F;
+}
+
+
+.category-container-left button{
+    background: #ff9f00;
+    color: #222;
+    font-size: 19px;
+    font-weight: 500;
+    width: 130px;
+    height: 42px;
+    border: 1px solid rgba(0, 0, 0, .12);
+    border-radius: 07px;
+    -webkit-border-radius: 07px;
+    -moz-border-radius: 07px;
+    -ms-border-radius: 07px;
+    -o-border-radius: 07px;
+    box-shadow: 0px 8px 14px rgba(0, 0, 0, .15);
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+
+
+
+
+.category-container-left button:hover{
+  
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, .31);
+}
+
+
+.category-container-left button a:hover{
+  color: #fff !important;
+}
+
+
+a:hover{
+    color: #222 !important;
+}
